@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form action="index.html" method="GET">
+            <div>
+                <label for="username">Username</label>
+                <input type="text"  name="Username" id="username" size="20" maxlength="7"placeholder="enter username">
+            
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" size="20" placeholder="enter password">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" size="20" placeholder="enter your email id">
+            
+                
+            </div>
+            <div>
+                <label for="about">About</label>
+                <textarea name="about" id="about" cols="20" rows="4"placeholder="about me"></textarea>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="checkbox" name="alert" id="checkbox">
+                <label for="checkbox">Terms and condition</label>
+                <input type="checkbox" name="privacy" id="checkboxes">
+                <label for="checkboxes">Privacy</label>
+            </div>
+            <!--dropdown-->
+            <div></div>
+            <select name="state" id="state">
+                <option value="Tamilnadu" label="Tamilnadu">Tamilnadu</option>
+                <option value="Andra pradesh" label="Andra pradesh">Andra pradesh</option>
+            </select>
+        </div>
+
+             <div>
+            <button type="submit">Submit</button>
+    
+        </div>
+        </form>
+    </body>
+</html>
